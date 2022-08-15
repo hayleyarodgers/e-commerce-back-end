@@ -12,9 +12,11 @@
 
 My goal for this project was to build the back end for an e-commerce site. 
 
-To achieve this, I used Javascript and mySQL.
+To achieve this, I used Javascript.
 
-![Screenshot of application](./assets/images/screenshot-of-application.png)
+![Screenshot of application in command line](./assets/images/screenshot-of-application-1.png)
+
+![Screenshot of application in Insomnia](./assets/images/screenshot-of-application-2.png)
 
 During this project, I consolidated my understanding of databases and MySQL. In particular, I re-inforced what I have learnt about routing.
 
@@ -22,7 +24,7 @@ During this project, I consolidated my understanding of databases and MySQL. In 
 
 To access the repository where the code is saved, click [here](https://github.com/hayleyarodgers/e-commerce-back-end).
 
-To access a video walkthrough tutorial of the application, click [here]() to access it directly or [here]() to access it via GoogleDrive.
+To access a video walkthrough tutorial of the application, click [here](./assets/walkthrough/e-commerce-back-end-demo-HRodgers.mp4) to access it directly or [here](https://drive.google.com/file/d/1vc5HuWFYqe8JqJ8n-546PIuuFxMDyioX/view?usp=sharing) to access it via GoogleDrive.
 
 ## Installation
 
