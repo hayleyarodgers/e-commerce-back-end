@@ -10,24 +10,19 @@
 
 ## Description
 
-My goal for this project was to create an application that allows the user to view and manage the departments, roles, and employees in a company. This would be helpful to a business owner who wants to organise and plan their business.
+My goal for this project was to build the back end for an e-commerce site. 
 
-To achieve this, I used Javascript.
+To achieve this, I used Javascript and mySQL.
 
 ![Screenshot of application](./assets/images/screenshot-of-application.png)
 
-During this project, I consolidated my understanding of databases and MySQL. In particular, I re-inforced what I have learnt about:
-- Data types
-- Schema
-- Seeds
-- CRUD operations
-- And, prepared statements.
+During this project, I consolidated my understanding of databases and MySQL. In particular, I re-inforced what I have learnt about routing.
 
 ## Access
 
-To access the repository where the code is saved, click [here](https://github.com/hayleyarodgers/employee-tracker).
+To access the repository where the code is saved, click [here](https://github.com/hayleyarodgers/e-commerce-back-end).
 
-To access a video walkthrough tutorial of the application, click [here](./assets/walkthrough/employee-tracker-demo-HRodgers.mp4) to access it directly or [here](https://drive.google.com/file/d/1-nKOjfsTqBETIYKIJrcHNkmeO4j3uwJ8/view?usp=sharing) to access it via GoogleDrive.
+To access a video walkthrough tutorial of the application, click [here]() to access it directly or [here]() to access it via GoogleDrive.
 
 ## Installation
 
@@ -41,15 +36,15 @@ npm i
 
 To use the application:
 1. Open the repository in your terminal or bash.
-2. Log into MySQL by entering ```mysql -u root -p``` in the command line, using ```poiuytrewq1!``` as the password.
-3. Create the database by entering ```SOURCE ./db/schema.sql;```.
-4. (Optional) Seed the database with sample data by entering ```SOURCE ./db/seeds.sql;```.
+2. Add a .env file in the same format as [this file](.env.EXAMPLE).
+3. Log into MySQL in the command line.
+4. Create the database by entering ```SOURCE ./db/schema.sql;```.
 5. Quit MySQL by entering ```quit```.
-6. Start the application by entering ```node index.js```.
-7. Use the application by answering the prompts.
+6. (Optional) Seed the database with sample data by entering ```npm run seed``` in the command line.
+7. Start the server by entering ```npm start``` in the command line.
 
 ## Credits
 
 - I used the [MySQL2](https://www.npmjs.com/package/mysql2) package to connect to my MySQL database and perform queries.
 - I used the [Inquirer](https://www.npmjs.com/package/inquirer/v/8.2.4) package to interact with the user via the command line.
-- I used the [console.table](https://www.npmjs.com/package/console.table) package to print MySQL rows to the console.
+- I used the [dotenv](https://www.npmjs.com/package/dotenv) package to use environment variables to store sensitive data needed to run the application.
