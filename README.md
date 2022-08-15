@@ -18,7 +18,11 @@ To achieve this, I used Javascript.
 
 ![Screenshot of application in Insomnia](./assets/images/screenshot-of-application-2.png)
 
-During this project, I consolidated my understanding of databases and MySQL. In particular, I re-inforced what I have learnt about routing.
+During this project, I consolidated my understanding of databases and MySQL. In particular, I re-inforced what I have learnt about:
+- Routing
+- Express.js
+- Sequelize
+- And, Insomnia.
 
 ## Access
 
